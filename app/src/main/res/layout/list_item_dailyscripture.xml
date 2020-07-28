@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@color/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+        <TextView
+                android:id="@+id/text"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/verse_placeholder"
+                android:textSize="18dp"
+                android:textStyle="italic"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/reference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reference_placeholder"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/text"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/translation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/translation_placeholder"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/reference"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

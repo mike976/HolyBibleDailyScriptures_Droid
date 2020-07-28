@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_dailyscriptures"
+        android:icon="@drawable/ic_baseline_menu_book_16"
+        android:title="@string/dailyscriptures_menu_title" />
+
+    <item
+        android:id="@+id/navigation_versoftheday"
+        android:icon="@drawable/ic_baseline_bookmark_16"
+        android:title="@string/verseoftheday_menu_title" />
+
+    <item
+        android:id="@+id/navigation_studyguide"
+        android:icon="@drawable/ic_baseline_study_guide_16"
+        android:title="@string/studyguide_menu_title" />
+
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/ic_baseline_account_circle_16"
+        android:title="@string/about_menu_title" />
+
+</menu>
