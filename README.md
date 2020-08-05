@@ -1,7 +1,7 @@
 # 
 # Holy Bible Daily Scriptures
 
-A companion app that provides verses from the Holy Bible, from the Book of the New Testament, Psalms & Proverbs - written in the King James Translation.
+A companion app that provides verses from the Holy Bible, from the Book of the New Testament, Psalms & Proverbs - written in the World English Bible.
 
 Features include:
 
